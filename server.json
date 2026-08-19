@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/jucesp_ficha-mcp",
+  "title": "JUCESP: Ficha Cadastral Simplificada",
+  "description": "Simplified company registration sheet at JUCESP (by CNPJ, NIRE or name). Platform-hosted, no credent",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/jucesp_ficha-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_jucesp_ficha"
+    }
+  ]
+}
